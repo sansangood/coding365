@@ -1,0 +1,13 @@
+#將輸入賦值給變數
+Name=input()
+Id=input()
+x=Chinese_score=input()
+y=Introduction_to_Computer=input()
+z=Computer_programming=input()
+summ=int(x)+int(y)+int(z)
+ave=int(summ/3)
+#輸出,為去空格可用+(兩者類型相同)+str(將數字轉乘字串)%s(字串格式化)
+print('Name:'+Name)
+print('Id:'+Id)
+print('Total:'+str(summ))
+print('Average:'+str(ave))
